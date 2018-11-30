@@ -8,7 +8,7 @@
 \pagestyle{empty}
 \begin{center}
 
-\greycard{Private Eye}{WATSON!!!}{
+\greycard{Private Eye}{Elementary, my dear Watson.}{
 	At the end of the game, before anyone else reveals their cards, you must
 	publicly announce the identity of the buried card. If correct, you win.
 	If incorrect, you lose.
@@ -34,7 +34,7 @@
 \greycard{Born Leader}{Born to lead!}{
 	You win if you are a \character{Leader} at the end of the game.
 }
-\greycard{Anarchist}{I like to watch the world burn!}{
+\greycard{Anarchist}{Some people just want to watch the world burn.}{
 	You win if you helped overthrow a \character{Leader} in the majority of
 	rounds.
 }
@@ -47,9 +47,10 @@
 \newpage
 
 \greycard{Telepath}{See into the future...}{
-	Before the last hostage exchange, you must publically announce that you
-	are the \character{Telepath} and predict which player is coming into
-	your current room. You win if you are correct.
+	Before the last hostage exchange (during the final round), you must
+	publically announce that you are the \character{Telepath} and predict
+	which player is coming into your current room. You win if you are
+	correct.
 }
 \purplecard{Amnesiac}{Whose team am I on again???}{
 	At the end of the game, before anyone else reveals their cards, you must
@@ -58,13 +59,34 @@
 	nobody's team. If you choose the team with a minority of players (or
 	picked nobody's team in case of a tie), you win.
 }
+\greycard {Agoraphobe} {I'll stay inside, thanks.} {
+	You win as long as you never leave your inital room.
+}
+\greycard {Traveler} {Oh, the places you'll go!} {
+	You win if you are sent to a different room as a hostage at the end of
+	MOST rounds. For example, in a 3 round game, you must change rooms
+	2 times to win.
+}
+\greycard {Mastermind} {There's no place like evil lair.} {
+	You win if you are a room's leader at the end of the game AND you were
+	the leader of the opposing room at some point during the game.
+}
+\greycard {MI6} {The name's Bond.} {
+	You win if you card share with the Bomber and the President before the
+	end of the game.
+}
+\greycard {Nuclear Tyrant} {} {
+	At the end of the game, you are asked if you shared your card with both
+	the \character{President} and the \character{Bomber}. You win if the
+	\character{President} and the \character{Bomber} did not card share
+	with you by the end of the game. If you win, all other players lose.
+	\\\vspace{0.25cm}
+	You begin with the "foolish" condition. Players with the "foolish"
+	condition can never turn down an offer to card share. "foolish" + "shy"
+	and "foolish" + "coy" cancel each other out.
+}
 
 \backpanel
-
-% \mixedcard{Mastermind}{Know it all!}{At the end of the game, before anyone
-% reveal their cards, you must publically announce the colour of \emph{every}
-% player. If correct, you win and everyone else loses.\\\vspace{0.3cm} You can
-% use either colour for Colour Share or Reveal.}
 
 \end{center}
 \end{document}
